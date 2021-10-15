@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+/* properties for the bacground and glassmorphisum starts here */
+body {
+    background-image: url('./images/moroccan-flower-dark.png');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+}
+.jumbotron
+    {
+        height:81vh;
+        width:100%; 
+        display:flex; 
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-end;
+        align-items: center;
+    }
+.arrow-icon{
+    color:#ff4d00;
+    font-weight:bolder;
+    font-size:5rem;
+
+}
+
+main {
+    box-shadow: 0 8px 32px 0 rgb(31 38 135);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 17px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    min-height:100vh;
+}
+
+.main-body {
+    border-radius:30px;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:50px 30px 50px 30px ;
+}
+
+.main-body, .question-container {
+    background-color:#e8e8e8;
+}
+/* properties for glassmorphisum and bacground ends here */
+
+/* properties for the navtabs starts here */
+
+
+#nav-contact,#nav-profile,#nav-home {
+    padding:30px;
+    border-radius: 0px 25px 25px 25px;
+}
+
+.test-description{
+    font-size:1.45rem;
+    color:white;
+    font-weight:bold;
+}
+
+
+#nav-home-tab,#nav-contact-tab,#nav-profile-tab {
+    border-radius: 15px 15px 0px 0px;
+    font-size: 1.5rem;
+    border-bottom:0px; 
+    color:white;
+    font-weight:bold;
+}
+
+        /* nav home properties */
+#nav-home-tab{
+    
+    background-color: #2a2a72;
+    background-image: linear-gradient(268deg, #009ffd 0%, #009ffd 74%);
+}
+#nav-home{
+    background-color: #2a2a72;
+background-image: linear-gradient(268deg, #2a2a72 0%, #009ffd 74%);
+ }
+        /* nav home properties */
+        /* nav contact tab starts here */
+#nav-contact{
+    background-color: #6b0f1a;
+    background-image: linear-gradient(268deg, #6b0f1a 0%, #b91372 74%) !important;
+}
+#nav-contact-tab{
+    background-color: #6b0f1a;
+    background-image: linear-gradient(268deg, #b91372 0%, #b91372 74%);
+}
+        /* nav contact tab starts here */
+        /* for the nav-profile tab  */
+#nav-profile-tab{
+    background-color: #f5d020;
+    background-image: linear-gradient(268deg, #f5bf1d 0%, #f5af19 0%);   
+}
+#nav-profile{
+    background-color: #f5d020;
+    background-image: linear-gradient(121deg, #f5d020 0%, #f53803 74%);
+}
+
+        /* for the nav-profile tab */
+.modal-backdrop {
+    display: none;
+}
+
+/* properties for the nav tabs ends here */
+
+/* properties for the question starts here */
+
+
+.question-container {
+    border-radius: 14px;
+    padding: 21px;
+    padding-left: 39px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+    border-radius: 28px;
+    background: #e6e6e6;
+    border-radius: 14px;
+}
+
+.easy-button {
+    border-radius: 32px;
+background: linear-gradient(145deg, #008fe4, #00aaff);
+box-shadow:  13px 13px 26px #007ec8,
+             -13px -13px 26px #00c0ff;
+}
+
+.nav-link.active{
+    border:none !important;
+}
+
+/* properties of the question ends here */
+
